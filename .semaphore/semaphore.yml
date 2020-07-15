@@ -17,4 +17,4 @@ blocks:
           commands:
             - bundle config set deployment 'true'
             - bundle config set path 'vendor/bundle'
-            - bundle check --gemfie
+            - bundle check --gemfile
