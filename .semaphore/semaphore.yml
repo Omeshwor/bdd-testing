@@ -17,3 +17,6 @@ blocks:
           commands:
             - bundle config set deployment 'true'
             - bundle config set path 'vendor/bundle'
+            - bundle install
+            - 'rails db:setup'
+            - 'rails db:test:prepare'
