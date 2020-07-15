@@ -17,3 +17,6 @@ blocks:
           commands:
             - sem-version ruby 2.7.0
             - bundle install
+      prologue:
+        commands:
+          - '-cache restore'
