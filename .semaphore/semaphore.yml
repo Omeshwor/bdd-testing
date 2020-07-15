@@ -16,7 +16,8 @@ blocks:
         - name: Test
           commands:
             - sem-version ruby 2.7.0
-            - bundle install --path vendor/bundle
+            - bundle config set deployment 'true'
+            - bundle config set path 'vendor/bundle'
       prologue:
         commands:
           - cache restore
