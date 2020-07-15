@@ -15,4 +15,5 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - bundle install --deployment --path 'vendor/bundle'
+            - bundle config set deployment 'true'
+            - bundle config set path 'vendor/bundle'
