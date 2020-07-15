@@ -16,7 +16,11 @@ blocks:
         - name: Test
           commands:
             - sem-version ruby 2.7.0
-            - bundle install
+            - bundle install --path vendor/bundle
       prologue:
         commands:
-          - '-cache restore'
+          - cache restore
+      epilogue:
+        always:
+          commands:
+            - cache store
