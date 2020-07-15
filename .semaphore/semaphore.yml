@@ -16,3 +16,4 @@ blocks:
         - name: Test
           commands:
             - sem-version ruby 2.7.0
+            - bundle install
