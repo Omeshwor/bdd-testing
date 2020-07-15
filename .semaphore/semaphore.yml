@@ -18,7 +18,7 @@ blocks:
             - sem-version ruby 2.7.0
             - bundle config set deployment 'true'
             - bundle config set path 'vendor/bundle'
-            - bundle install
+            - bundle install --path 'vendor/bundle'
       prologue:
         commands:
           - cache restore
