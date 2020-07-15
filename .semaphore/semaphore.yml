@@ -15,4 +15,4 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - bundle install
+            - sem-version ruby 2.7.0
