@@ -16,4 +16,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - bundle install --deployment --path vendor/bundle
+            - bundle install
