@@ -23,3 +23,6 @@ blocks:
             - cache store
             - 'bundle exec rake db:setup'
             - bundle exec rspec
+        - name: 'Job #2'
+          commands:
+            - 'bundle exec rake db:setup'
